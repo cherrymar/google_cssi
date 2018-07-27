@@ -1,0 +1,27 @@
+p {
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 30px;
+  font-family: 'Permanent Marker', cursive;
+}
+
+
+span {
+  color: #b2071d;
+}
+
+hr {
+  width: 70%;
+  background-color: black;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+h1 {
+  margin-right: 50px;
+  margin-left: 30px;
+  padding: 20px 20px 20px 20px;
+  background-color: #ff9ed8;
+  box-shadow: 10px 10px black;
+  font-family: 'Abril Fatface', cursive;
+}

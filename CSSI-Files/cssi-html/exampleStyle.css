@@ -1,0 +1,40 @@
+#milky-way { /* this is default 300px */
+  font-family: 'Gaegu', cursive;
+  width: 300px; /*can do "%" of the page or absolute values*/
+}
+
+.top-bar { /* bar at the top of the screen */
+  background-color: #009688;
+  height: 20px;
+}
+
+h1 {
+  background-color: #26a69a;
+  height: 60px;
+  /* short cut for specifying padding w/o
+  writing out everyhing-
+  padding: top right bottom left */
+  padding-top: 10%;
+  padding-right: 5%;
+  padding-bottom: 40px;
+  padding-left: 10px;
+  /* margin: 10% 5% 40px 10px; */
+  box-shadow: 10px 10px grey; /*horizontal vertical color*/
+}
+
+.title {
+  font-size: 20px;
+  height: 100px;
+}
+
+ul {
+  border-left: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+  border-right: 1px solid lightgrey;
+  list-style-type: none;
+}
+
+
+
+
+/* rel="stylesheet"> */
