@@ -1,0 +1,54 @@
+.turtleImg {
+  width: 300px;
+}
+
+#pageTitle {
+  /* align: center; */
+  font-size: 40px;
+  /* font-family: 'Gaegu', cursive; */
+}
+
+/* Changes the fundamental nature of thing- default is block */
+div {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  /* justify in typography means to reach both sides of screen */
+  /* flex-direction: column; row-reverse */
+}
+
+
+h3 {
+  flex: 0 0 100px;
+  /* flex: 1 1 160px */
+  /* 0- item isn't flexible; 1- item is flexible; flex is whether or not the items change with changes in the window */
+  /*
+    font doesn't change- only the container
+    grow- if you only specify one number, it is refering to "grow" (ex: flex: 1- yes grow )
+    shrink-
+    basis- default is zero, but if it's a number bigger than the text size, the box container will be set to that many pixels
+
+    flex: 1 0 0
+  */
+}
+
+
+
+div.wrapper {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 100px auto 100px;
+  /* grid-template-columns: 2fd 1ft 1fr */
+  grid-template-rows: 200px 300px;
+}
+
+/*
+overflow: scroll
+overflow: hidden
+
+grid-gap: 10px;
+grid-template-columns: repeat(6, 1fr);
+
+
+
+*/

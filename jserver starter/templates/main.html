@@ -1,0 +1,20 @@
+<html>
+ <head><title>Jeopardy</title></head>
+ <body>
+   <p>Logged in user: {{user}} |
+    <a href="{{log_url}}">{{log_message}}</a></p>
+    {% if user %}
+   <ul>
+     <li>Nickname: {{user.nickname()}}</li>
+     <li>Email: {{user.email()}}</li>
+     <li>User ID: {{user.user_id()}}</li>
+     <!-- <li>Page View Count: {{count}}</li> -->
+     {% endif %}
+   </ul>
+   <ul>
+     <li>Question: {{question}}</li>
+     <li>Answer: {{answer}}</li>
+     <li>category: {{category}}</li>
+   </ul>
+ </body>
+</html>

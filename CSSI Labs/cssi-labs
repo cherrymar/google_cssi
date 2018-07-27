@@ -1,0 +1,33 @@
+body {
+  font-family: Roboto, sans-serif;
+}
+#flex-parent {
+  display: flex;
+}
+
+.animals {
+  flex: 1;
+  padding: 10px 20px;
+}
+
+.light-text {
+  color: white;
+}
+
+#a1 {
+  background-color: red;
+}
+
+#a2 {
+  background-color: orange;
+}
+
+#a3 {
+  background-color: yellow;
+}
+#a4 {
+  background-color: green;
+}
+#a5 {
+  background-color: blue;
+}
